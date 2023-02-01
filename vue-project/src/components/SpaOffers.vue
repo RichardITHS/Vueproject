@@ -1,5 +1,5 @@
 <template>
-    <div class="col">git init
+    <div class="col">
         <div class="card" style="width: 18rem">
             <img
                 src="../assets/img/laura-chouette-bD4j1V52dx0-unsplash.jpg"

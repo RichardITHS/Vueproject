@@ -16,11 +16,7 @@
     <div id="offers">
         <div class="container text-center">
             <div class="row align-items-center">
-                <spa-offer
-                    v-for="spa in spas"
-                    :key="spa.id"
-                    :offer="spa"
-                ></spa-offer>
+                <spa-offer v-for="spa in spas" :key="spa.id" :offer="spa" />
             </div>
         </div>
     </div>
@@ -41,7 +37,7 @@
                 message: 'Vilket paket önskas?'
             }
         },
-        name: 'home',
+        name: 'HomeView',
         components: { 'spa-offer': SpaOffers },
         mounted() {
             this.fetchData()
