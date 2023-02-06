@@ -5,7 +5,7 @@
     /* Steg 2 lägger till ref med composition api */
     /* https://medium.com/codex/options-api-vs-composition-api-4a745fb8610 */
     import { ref } from 'vue'
-    import Mailform from '../views/Mailform.vue'
+    import MailForm from '../components/MailForm.vue'
 
     const show = ref(true)
 </script>
@@ -26,7 +26,9 @@
             Vill du kontakta oss?
         </button>
 
-        <div v-if="!show"><Mailform /></div>
+        <div v-if="!show">
+            <MailForm />
+        </div>
     </div>
 </template>
 <script>

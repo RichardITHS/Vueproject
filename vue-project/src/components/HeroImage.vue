@@ -12,17 +12,20 @@
     </div>
 </template>
 <style>
+
+
     #wrapper-hero img {
         margin: 0 auto;
         height: auto;
         overflow-x: hidden;
     }
     /* Centered text */
-    .centered {
+    #wrapper-hero .centered {
         position: absolute;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: white;
     }
+
 </style>
